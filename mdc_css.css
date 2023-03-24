@@ -1,0 +1,65 @@
+/*Comentário em CSS*/
+
+/*
+# Para modificar cores, fontes, etc da página:
+
+    body{    <-- a chave aberta significa que a tag selecionada pode sofrer mudanças de estilo
+
+    }
+
+# Trocar a cor de fundo:
+
+    background-color: ;
+
+# Cor do texto: 
+
+    color: ;
+
+# Para por uma imagem no fundo:
+
+    background-image: url("..");
+
+# Fazer com que a imagem no fundo não se repita:
+
+    background-repeat: no-repeat;
+
+# Quanto que o fundo vai ocupar da tela:
+
+    background-size: ;
+
+# Comando onde é possível mudar o tamanho da letra e a fonte, Exemplo:
+
+    font: normal 14pt Arial;
+
+# Uma especificação muito vasta sobre fontes de texto:
+    
+    font-family: ;
+
+# Tamanho da fonte:
+
+    font-size: ;
+
+# Alinhamento do texto:
+
+    text-align: ;
+
+# Enquadramento da tag:
+
+    padding: ;
+
+# Margem:
+
+    margin: ;
+
+# Tamanho do topo da margem:
+
+    margin-top: ;
+
+# Arredondamento das bordas:
+
+    border-radius: ;
+
+# vazio:
+
+
+*/

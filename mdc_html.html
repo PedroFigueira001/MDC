@@ -1,0 +1,242 @@
+# Comentário em HTML:
+    
+    <!--escreva-->
+
+# Para abrir uma hospedagem de HTML, digite "html:5":
+
+
+# Identificadores:
+
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É pssível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas
+- Váriaveis do tipo INT e FLOAT = number
+    Tipos de Váriaveis: 
+        number, string, boolean, null, undefinedn, object, function
+
+
+# Conversão:
+
+    - Converter uma variável em um número inteiro:
+        parseInt(n) ou Number(n)
+    - Converter uma variável em um número real:
+        parseFloat(n)
+    - Converter um número para uma string:
+        String(n) ou n.toString()
+
+        # H T M L \
+
+        # Língua:
+    
+            <html lang="pt-br">
+    
+        # Nome da página:
+    
+            <title></title>
+    
+        # Título:
+    
+            <h1></h1>
+    
+        # Parágrafo:
+    
+           <p></p>
+    
+        
+        # Quebra-de-linha:
+    
+            <br>
+    
+        # Colocar imagens
+    
+            <img src="nome_do_arquivo">
+    
+        # [Tag semântica] Para fazer relação com o cabeçalho do programa:
+    
+            <header></header>
+    
+        # [Tag semântica] Para fazer relação com rodapé do programa:
+    
+            <footer></footer>
+    
+    
+        # [Tag semântica] Área específica para expansão de tópicos:
+    
+            <main></main>
+    
+            ## [Tag semântica] Um elemento que pode ser 'child' de main
+    
+                <article></article>
+    
+        # [Tag semântica] Representa uma section da página própria para alocação de conteúdos:
+            
+            <aside></aside>
+    
+        # [Tag semântica] Faz conexão com outras páginas por meio de links:
+    
+            <nav></nav>
+    
+        # [Tag semântica] usa-se para fazer um seção com conteúdos:
+    
+            <section></section>
+    
+        # Para colocar um link:
+    
+            <a></a>
+    
+            ## Fragmentos específico para colocar hyperliks:
+    
+                <a href=""></a>
+    
+        # Uma lista de itens onde a ordem na importa, onde se faz à abertura de uma lista com pontos.
+        # Semelhante a <ol></ol>:
+    
+            <ul type="1"></ul>  <--- O comando Type serve para mudar a ordem númerica da lista.
+    
+            ## Um item da lista que pode fazer parte de 'ul', 'ol' ou 'menu':
+    
+                <li></li>
+    
+        # A table tem a função de representa uma tabela. Dependendo da ocasião, a-
+        # colocação de borda pode ser um parâmetro opicional adicionado pelo comando 'border="n"':
+    
+            <table border="4"></table>
+    
+            # Para criar a linha da tabela:
+    
+                <tr></tr>
+    
+            # E para ocupar o topo da tabela:
+    
+                <th></th>
+    
+        # Faz a colocação de aspas duplas:
+    
+            <q></q>
+    
+        # Fazer uma citação:
+    
+            <cite></cite>
+    
+        # Mudar o icone do site:
+    
+            <link rel="icon" href="">
+
+        # Para fazer uma ligação com um arquivo CSS remoto:
+
+        <link rel="stylesheet" href="nome_do_arquivo">
+
+
+
+# V A R I Á V E I S
+
+
+Para criar variáveis basta digirar a palavra "var" e em seguida colocar o sinal de =, e tudo o que estiver depois é o nome da variável.
+
+var = 'nome da variável'
+
+
+# Formatando Strings
+
+var s = 'JavaScript' ou 'html'
+
+'Eu estou aprendendo s'      // não faz interpolação
+'Eu estou aprendendo' + s    // usa concatenação
+'Eu estou aprendendo ${s}'   // usa template string
+s.length                     // Quantos caracteres a string tem
+s.toUpperCase()              // tudo para 'MAIÚSCULAS'
+s.toLowerCase()              // tudo para 'MINÚSCULAS'
+
+var = n = 1545.5
+
+# É um método intero que exibe um número com modficações de casas decimais:
+
+    n.toFixed(quantidade de casas decimais)
+
+        # Para mudar algo no número:
+
+            n.toFixed().replace('', '')
+
+# Faz uma modificação de string localizada:
+
+    n.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+
+# Ordem de precedência dos operadores aritméticos:
+
+() --> ** --> * --> / --> % --> + --> -
+
+
+Operadores aritméticos > relacionais > lógicos
+
+() = Parentêses (priorizam números dentro)
+** = Potência
+* = Multiplicação
+/ = Divisão
+% = Resto da Divisão
++ = Adição
+- = Subtração
+=== = identidade --> Analisam se uma variavel são o mesmo valor e o mesmo tipo.
+
+
+# O P E R A D O R E S   L Ó G I C O S
+
+
+!  = Negação
+
+&& = Conjunção:
+
+    true + true   = true
+    true + false  = false
+    false + true  = false
+    false + false = false
+
+|| = Disjunção:
+
+    true + true   = true
+    true + false  = true
+    false + true  = true
+    false + false = false
+
+# Operados ternários
+
+# funciona como um 'if' por ser uma estrutura lógica, porém, só retorna em valor lógico.
+
+<teste> ? <true> : <false>
+
+
+
+# Á R V O R E   D O M
+
+window
+    location
+    history
+    document
+        html
+            head
+                meta
+                title
+            body
+                div
+                h1
+                p
+
+#alguns comandos para acessar a Árvore DOM:
+
+    document.getElementBy... (Name, ID, ClassName, TagName)[n] <-- parâmetro por númeração
+
+#Eventos DOM
+
+# para fazer um input para o clinte digitar:
+
+    <input type="" name="" or value="">
+
+# Criar uma função:
+
+    function 'nome da função'(){
+
+    }
+
+
