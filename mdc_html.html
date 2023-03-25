@@ -131,83 +131,6 @@
 
 
 
-# V A R I Á V E I S
-
-
-Para criar variáveis basta digirar a palavra "var" e em seguida colocar o sinal de =, e tudo o que estiver depois é o nome da variável.
-
-var = 'nome da variável'
-
-
-# Formatando Strings
-
-var s = 'JavaScript' ou 'html'
-
-'Eu estou aprendendo s'      // não faz interpolação
-'Eu estou aprendendo' + s    // usa concatenação
-'Eu estou aprendendo ${s}'   // usa template string
-s.length                     // Quantos caracteres a string tem
-s.toUpperCase()              // tudo para 'MAIÚSCULAS'
-s.toLowerCase()              // tudo para 'MINÚSCULAS'
-
-var = n = 1545.5
-
-# É um método intero que exibe um número com modficações de casas decimais:
-
-    n.toFixed(quantidade de casas decimais)
-
-        # Para mudar algo no número:
-
-            n.toFixed().replace('', '')
-
-# Faz uma modificação de string localizada:
-
-    n.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
-
-# Ordem de precedência dos operadores aritméticos:
-
-() --> ** --> * --> / --> % --> + --> -
-
-
-Operadores aritméticos > relacionais > lógicos
-
-() = Parentêses (priorizam números dentro)
-** = Potência
-* = Multiplicação
-/ = Divisão
-% = Resto da Divisão
-+ = Adição
-- = Subtração
-=== = identidade --> Analisam se uma variavel são o mesmo valor e o mesmo tipo.
-
-
-# O P E R A D O R E S   L Ó G I C O S
-
-
-!  = Negação
-
-&& = Conjunção:
-
-    true + true   = true
-    true + false  = false
-    false + true  = false
-    false + false = false
-
-|| = Disjunção:
-
-    true + true   = true
-    true + false  = true
-    false + true  = true
-    false + false = false
-
-# Operados ternários
-
-# funciona como um 'if' por ser uma estrutura lógica, porém, só retorna em valor lógico.
-
-<teste> ? <true> : <false>
-
-
-
 # Á R V O R E   D O M
 
 window
@@ -238,5 +161,3 @@ window
     function 'nome da função'(){
 
     }
-
-
