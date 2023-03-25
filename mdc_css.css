@@ -1,11 +1,21 @@
 /*Comentário em CSS*/
 
 /*
-# Para modificar cores, fontes, etc da página:
+
+
+# [IMPORTANTE] Para modificar cores, fontes, etc da página:
 
     body{    <-- a chave aberta significa que a tag selecionada pode sofrer mudanças de estilo
 
     }
+
+
+# [IMPORTANTE] Para mencionar mais de um tag 'class' com as mesmas propriedade, adicione ".nome {}"
+
+    Exemplo: .logo, .headline {
+
+}
+
 
 # Trocar a cor de fundo:
 
@@ -14,6 +24,18 @@
 # Cor do texto: 
 
     color: ;
+
+# Altura:
+
+    height: ;
+
+# Largura:
+
+    width: ;
+
+# Fundo:
+
+    background: ;
 
 # Para por uma imagem no fundo:
 
@@ -58,4 +80,37 @@
 # Arredondamento das bordas:
 
     border-radius: ;
+
+# Altura(tamanho) da linha:
+
+    line-height: ;
+
+# Determina o grau de opacidade do elemento:
+
+    opacity: ;
+
+# [Seletores] Faz com que um pseudo-elemento tenha propriedades distintas em tags específicas.
+Sempre com o '::' depois de cada elemento: 
+
+    # Alterações são aplicadas na primeira letra de um texto:
+
+        ::first-letter {}
+
+    # Alterações são aplicadas na primeira linha:
+
+        ::firts-line {}
+
+    # Alterações são aplicadas no final:
+
+        ::after {}
+
+    # Alterações são aplicadas no começo:
+
+        ::before {}
+
+    # Alterações são aplicadas durante o sublinhamento de um texto:
+
+        ::selection {}
+
+
 */
