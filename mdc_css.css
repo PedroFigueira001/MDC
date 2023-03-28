@@ -65,7 +65,7 @@
 
     text-align: ;
 
-# Enquadramento da tag:
+# O espaço ao redor do conteúdo:
 
     padding: ;
 
@@ -76,6 +76,10 @@
 # Tamanho do topo da margem:
 
     margin-top: ;
+
+# Uma linha ao redor fora do padding:
+
+    border: ;
 
 # Arredondamento das bordas:
 
