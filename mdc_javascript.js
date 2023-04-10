@@ -41,6 +41,18 @@ Para criar variáveis basta digirar a palavra "var" e em seguida colocar o sinal
 var = 'nome da variável'
 
 
+
+# Conversão:
+
+    - Converter uma variável em um número inteiro:
+        parseInt(n) ou Number(n)
+    - Converter uma variável em um número real:
+        parseFloat(n)
+    - Converter um número para uma string:
+        String(n) ou n.toString()
+
+
+
 # Formatando Strings
 
 var s = 'JavaScript' ou 'html'
@@ -62,7 +74,7 @@ var = n = 1545.5
 
             n.toFixed().replace('', '')
 
-# Faz uma modificação de string localizada:
+# Faz uma modificação de string localizada. Podendo acrescentar possíveis implementações CSS:
 
     n.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
 
@@ -120,6 +132,44 @@ Operadores aritméticos > relacionais > lógicos
 
 <teste> ? <true> : <false>
 
+
+
+# Á R V O R E   D O M
+
+window
+    location
+    history
+    document
+        html
+            head
+                meta
+                title
+            body
+                div
+                h1
+                p
+
+# alguns comandos para acessar a Árvore DOM:
+
+    document.getElementBy... (Name, ID, ClassName, TagName)[n] <-- parâmetro por númeração
+
+#Eventos DOM
+
+# para fazer um input para o clinte digitar:
+
+    <input type="" name="" or value="">
+
+# Criar uma função:
+
+    function 'nome da função'(){
+
+    }
+
+ # Relaciona o nome de da função com os eventos de forma continua. Ou seja, esse código fica constante-
+ mente "ouvindo" o que está acontecendo para assim, conseguir captar uma função para aciona-lá. Funciona
+ como uma ligação entre o JavaScript e o HTML e CSS.
+
+    addEventListener('evento', 'nome_da_função')
 
 
 # C O N D I Ç Õ E S
