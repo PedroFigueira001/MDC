@@ -117,4 +117,21 @@ Sempre com o '::' depois de cada elemento:
         ::selection {}
 
 
+# [Position] Denominar por meio de propriedades a posição de alguma tag:
+
+    # Geralmente esse é o valor padrão a ser definido:
+
+        position: static;
+
+    # É posicionado em relação ao antecessor:
+
+        position: absolute;
+
+    # Esse elemento é posicionado geralmente á esquerda (left: 20px):
+
+        position: fixed;
+
+    # Esse elemento é posicionado de acordo com o scroll position do usuário:
+        
+        postion: sticky;
 */
