@@ -230,9 +230,12 @@ function função(){
     }
 }
 
+# Executa o bloco primeiro, para depois fazer o teste lógico:
+
 do (função){
 
 } while (condição)
+
 
 # Com variavel de controle:
 
