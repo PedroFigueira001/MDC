@@ -65,6 +65,40 @@
 
     text-align: ;
 
+# É usada para definir ou remover decorações do texto:
+
+    text-decoration: ;
+
+# É  usada  para  especificar  letras  maiúsculas  e minúsculas  em  um  texto. Pode  ser  usado  
+para  transformar  tudo  em  letras maiúsculas ou minúsculas, ou capitalizar a primeira letra de cada palavra.
+
+    text-transform: ;
+
+# A propriedade text-indent é usada para especificar o recuo da primeira linha de um texto:
+
+    text-indent: ;
+
+# A propriedade de espaçamento entre letras é usada para especificar o espaço entre os caracteres em um texto:
+
+    letter-spaccing: ;
+
+# A propriedade line-height é usada para especificar o espaço entre as linhas:
+
+    line-height: ;
+
+# A propriedade direction é usada para alterar a direção do texto de um elemento:
+
+    direction: ;
+
+# A  propriedade word-spacingéusada  para  especificar  o  espaço  entre  as palavras em um texto:
+
+    word-spacing: ;
+
+# A propriedade text-shadow adiciona sombra ao texto. O exemplo a seguir especifica a posição 
+da sombra horizontal (3px), a posição da sombra vertical (2px) e a cor da sombra (vermelha).
+
+    text-shadow: ;
+
 # O espaço ao redor do conteúdo:
 
     padding: ;
