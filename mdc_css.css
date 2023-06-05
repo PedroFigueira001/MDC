@@ -65,6 +65,40 @@
 
     text-align: ;
 
+# É usada para definir ou remover decorações do texto:
+
+    text-decoration: ;
+
+# É  usada  para  especificar  letras  maiúsculas  e minúsculas  em  um  texto. Pode  ser  usado  
+para  transformar  tudo  em  letras maiúsculas ou minúsculas, ou capitalizar a primeira letra de cada palavra.
+
+    text-transform: ;
+
+# A propriedade text-indent é usada para especificar o recuo da primeira linha de um texto:
+
+    text-indent: ;
+
+# A propriedade de espaçamento entre letras é usada para especificar o espaço entre os caracteres em um texto:
+
+    letter-spaccing: ;
+
+# A propriedade line-height é usada para especificar o espaço entre as linhas:
+
+    line-height: ;
+
+# A propriedade direction é usada para alterar a direção do texto de um elemento:
+
+    direction: ;
+
+# A  propriedade word-spacingéusada  para  especificar  o  espaço  entre  as palavras em um texto:
+
+    word-spacing: ;
+
+# A propriedade text-shadow adiciona sombra ao texto. O exemplo a seguir especifica a posição 
+da sombra horizontal (3px), a posição da sombra vertical (2px) e a cor da sombra (vermelha).
+
+    text-shadow: ;
+
 # O espaço ao redor do conteúdo:
 
     padding: ;
@@ -134,5 +168,62 @@ Sempre com o '::' depois de cada elemento:
     # Esse elemento é posicionado de acordo com o scroll position do usuário:
         
         postion: sticky;
-*/
 
+    # [PSEUDO-ELEMENTO] Umpseudo-elemento é um identificador adicionadoa um seletor que permite 
+      que seja stilizado apenas uma parte específica do elemento selecionado:
+
+        # Cria um pseudo-elemento que é o último filho do elemento selecionado:
+
+            seletor::after{}
+
+        # Cria um pseudo-elementoque é o primeiro filho do elemento atingido:
+
+            seletor::before{}
+
+        # Esse pseudo-elemento possibilita a customização de legendas (em vídeos por exemplo):
+
+            seletor::cue{}
+
+        # Esse pseudo-elemento seleciona a primeira letra da primeira linha de um bloco, 
+        se não for precedida por qualquer outro conteúdo (como imagens ou tabelas embutidas) em sua linha:
+
+            seletor::first-letter{}
+
+        # Aplica  estilos  à  primeira  linha  de  um  elemento  de  nível  de  bloco. Observe  que  o  
+        comprimento  da  primeira  linha  depende  de  muitos  fatores, incluindo a largura do elemento, 
+        alargura do documento e o tamanho da fonte do texto:
+
+            seletor::first-line{}
+
+        # Aplica estilos à parte de um documento destacado pelo usuário (como clicar e arrastar o mouse sobre o texto):
+
+            seletor::selection{}
+
+        # Representa qualquer elemento que tenha sido colocado em um slot dentro de um modelo HTML:
+
+            seletor::slotted(){}
+
+        # Pode  ser  utilizado  para  criar  um  pano  de  fundo  que  esconde  o conteúdo  por  
+        trás  de  um  elemento  posicionado  no  topo  de  uma  pilha  de elementos. 
+        Por exemplo, para o elemento que é mostrado em tela cheia conforme descrito nessa especificação:
+
+            seletor::backdrop{}
+
+        # Ele customiza o texto, possibilitando a criação de uma moldura em torno do texto.
+
+            seletor::placeholder{}
+
+        # seleciona a caixa do marcador de um item da lista, que normalmente contém um marcador ou um número:
+
+            seletor::marker{}
+
+        # Representa  um  segmento  de  texto  que  o  user  agent  sinalizou como digitado incorretamente:
+
+            seletor::spelling-error{}
+
+        # Representa  um  segmento  de  texto  que  o user  agentsinalizou como gramaticalmente incorreto:
+
+            seletor::grammar-error{}
+
+    
+*/
