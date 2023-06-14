@@ -243,4 +243,41 @@ for (teste, inicio, incr) {
 
 }
 
+
+# V E T O R E S (arrays)
+
+
+# Vetores nada mais são do que variáveis compostas que possuem mais de um elemento que podem ser acessados
+coletivamente ou individualmente por meio dos seus índices que especificam cada valor armazenado.
+
+let num = []
+
+# Para acresentar um valor em uma determinada posição ou, para substituir um valor de um índice já existente:
+
+num[1] = 4
+
+# Para acresentar um valor em sua última posição de índice:
+
+num.push(10)
+
+# Tamanho de um vetor:
+
+num.length
+
+# Ordena todos os valores em ordem crescente:
+
+num.sort()
+
+# FOR mais otimizado e mais recomendado para utilizar em vetores:
+
+for (var contador in num){
+    console.log(num[contador])
+}
+
+
+# Faz uma busca por um determinado valor que está armazenado em um vetor, e retorna ao valor do índice. Caso o número não seja encontrado, retornará o valor -1:
+
+num.indexOf(6)
+
+
 */
