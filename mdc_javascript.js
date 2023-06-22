@@ -161,9 +161,17 @@ window
 
 # Criar uma função:
 
-    function 'nome da função'(){
+    function 'nome da função'(parâmetros){
 
     }
+
+# [Parâmetros opcionais] atribuiem outro valor quando não há uma primeira atribuição.
+
+    function 'nome da função' (x = 0){
+        return x
+    }
+
+    console.log('nome da função'(5))
 
  # Relaciona o nome de da função com os eventos de forma continua. Ou seja, esse código fica constante-
  mente "ouvindo" o que está acontecendo para assim, conseguir captar uma função para aciona-lá. Funciona
