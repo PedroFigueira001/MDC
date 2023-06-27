@@ -179,6 +179,10 @@ window
 
     addEventListener('evento', 'nome_da_função')
 
+# Atribuir um valor que vai ser 'child' de um elemento maior, um 'parent'.
+
+    .appendChild('elemento')
+
 
 # C O N D I Ç Õ E S
 
@@ -240,14 +244,14 @@ function função(){
 
 # Executa o bloco primeiro, para depois fazer o teste lógico:
 
-do (função){
+    do (função){
 
 } while (condição)
 
 
 # Com variavel de controle:
 
-for (teste, inicio, incr) {
+    for (teste, inicio, incr) {
 
 }
 
@@ -258,23 +262,23 @@ for (teste, inicio, incr) {
 # Vetores nada mais são do que variáveis compostas que possuem mais de um elemento que podem ser acessados
 coletivamente ou individualmente por meio dos seus índices que especificam cada valor armazenado.
 
-let num = []
+    let num = []
 
 # Para acresentar um valor em uma determinada posição ou, para substituir um valor de um índice já existente:
 
-num[1] = 4
+    num[1] = 4
 
 # Para acresentar um valor em sua última posição de índice:
 
-num.push(10)
+    num.push(10)
 
 # Tamanho de um vetor:
 
-num.length
+    num.length
 
 # Ordena todos os valores em ordem crescente:
 
-num.sort()
+    num.sort()
 
 # FOR mais otimizado e mais recomendado para utilizar em vetores:
 
@@ -282,10 +286,20 @@ for (var contador in num){
     console.log(num[contador])
 }
 
+# Apaga o valor informado após a sua informação dada:
 
-# Faz uma busca por um determinado valor que está armazenado em um vetor, e retorna ao valor do índice. Caso o número não seja encontrado, retornará o valor -1:
+    .focus()
 
-num.indexOf(6)
+# [ANÁLISE] Faz uma busca por um determinado valor que está armazenado em um vetor, e retorna ao valor do índice. Caso o número não seja encontrado, retornará o valor -1:
 
+    num.indexOf(6)
+
+# [ANÁLISE] Retorna o maior valor dentro de um vetor:
+
+    Math.max.apply(null, array)
+
+# [ANÁLISE] Retorna o menor valor dentro de um vetor:
+
+    Math.min.apply(null, array)
 
 */
