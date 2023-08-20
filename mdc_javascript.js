@@ -302,4 +302,11 @@ for (var contador in num){
 
     Math.min.apply(null, array)
 
+
+
+# D E C L A R A Ç Ã O   D E   O B J E T O S
+
+# Apresenta muitas funcionalidades que o Array não pode apresentar, como a nomeação de índices, alocação de Funções na variável, etc.
+    let objeto = {}
+
 */

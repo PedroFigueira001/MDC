@@ -1,8 +1,44 @@
-frase = '    Curso em Vídeo Python'
+frase = '    Linguagem Python'
 palavra = 'Papa Rele pípe Do'
 tupla = ()
 lista = [] or list()
-dicionário = {'nome': 'Pedro', 'idade': 17} or dict()
+dicionário = {'veiculo': 'carro', 'ano': 2006} or dict()
+
+
+#        C O N D I Ç Õ E S
+
+# Se(if) a 1° condição é verdadeira, executa a linha abaixo. Senão se(else), executa a segunda linha. E se não for nenhuma das alternativas acima, o Else é executado.
+
+if dicionário['veiculo'] is 'vermelho':
+    print('Ok, tudo certo.')
+elif dicionário['veiculo'] is 'azul':
+    print('Ok, tudo certo.')
+else:
+    print('Ops! Essa cor é inválida.')
+
+
+#       R E P E T I Ç Õ E S
+
+# (1) Estrutura de repetição condicional
+# Ex: Se o total de itens na lista for igual a 0, o programa vai pedir para o usuário digitar algo que futuramente será inserido dentro da lista
+# se não for um número.
+
+while len(lista) == 0:
+    algo = str(input('Digite algum nome: '))
+    if algo.isnumeric:
+        print('Erro!')
+        break
+    else:
+        lista.append(algo)
+
+
+# (2) Estrutura de repetição com varíavel de controle.
+# Ex: Uma contagem de 1 até 6 utilizando uma váriavel que toda vez que não chegar até 5 (O ultimo número colocado é "ignorado pelo Python"),
+# receberá uma atribuição:
+
+for cont in range(1, 6):
+    print(cont)
+    cont += 1
 
 
 #        F A T I A M E N T O
@@ -31,7 +67,7 @@ print(len(frase))
 print(frase.count('o')), print(frase.count('o', 0, 13))
 
 # Encontra uma determinada palavra na cadeia de caratéres, mostrando a posição onde começa.
-print(frase.find('Vídeo'))
+print(frase.find('Linguagem'))
 
 # Deixa uma string em ordem alfabética.
 print(sorted(frase))
@@ -103,7 +139,7 @@ lista.insert(0, 'Batata')
 
 # Deleta um elemento específico na lista
 del lista[2]
-lanche.pop(2)  # Delta o último elemento de uma lista. Obs: Mas, a opção aceita parâmetros
+lista.pop(2)  # Delta o último elemento de uma lista. Obs: Mas, a opção aceita parâmetros
 lista.remove('Tesoura')
 
 # Cria uma lista já ordenada com números
