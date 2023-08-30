@@ -1,7 +1,7 @@
 frase = '    Linguagem Python'
 palavra = 'Papa Rele pípe Do'
 tupla = ()
-lista = [] or list()
+lista = []
 dicionário = {'veiculo': 'carro', 'ano': 2006} or dict()
 
 
@@ -136,6 +136,14 @@ lista.append('Tesoura')
 
 # Adiciona um elemento novo na lista, em uma posição específica
 lista.insert(0, 'Batata')
+
+# Retorna o maior valor númerico dentro de uma lista:
+
+print(max(lista))
+
+# Retorna o menor valor númerico dentro de uma lista:
+
+print(min(lista))
 
 # Deleta um elemento específico na lista
 del lista[2]
